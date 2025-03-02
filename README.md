@@ -1,4 +1,4 @@
-Balancing
+# Balancing
 
     Clone the repository
     Run docker-compose up -d load-balancer in the project folder`
@@ -7,8 +7,9 @@ Balancing
     Stop this server to test switching to the backup upstream server.
 
 For instance, if you were receiving responce from the other server:
-
+'''bash
 docker stop server-other
+```
 
 Then refresh the page to receive response from the backup server
 
