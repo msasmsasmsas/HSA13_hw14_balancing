@@ -7,7 +7,7 @@
     Stop this server to test switching to the backup upstream server.
 
 For instance, if you were receiving responce from the other server:
-'''bash
+```bash
 docker stop server-other
 ```
 
